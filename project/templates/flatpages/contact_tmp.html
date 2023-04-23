@@ -1,0 +1,22 @@
+
+
+{% extends 'flatpages/default.html' %}
+
+
+
+    {{ flatpage.title }}
+
+    {% block content %}
+    {{flatpage.content}}
+     <h3>Дополнительная информация </h3>
+     <hr>
+     <i>email:</i> puzan@mail.ry<br>
+     <i>website:</i> <a href="https://keramos-neva.ru/" target="_blank" rel="noopener">https://keramos-neva.ru/</a> <br>
+     <hr>
+    {{flatpage.content}}
+     <h3>Дополнительная информация </h3>
+     <hr>
+     <i>email:</i> puzan@mail.ry<br>
+     <i>website:</i> <a href="https://keramos-neva.ru/" target="_blank" rel="noopener">https://keramos-neva.ru/</a> <br>
+     <hr>
+    {% endblock content %}

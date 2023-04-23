@@ -1,0 +1,15 @@
+
+{% extends 'flatpages/default.html' %}
+
+       {{ flatpage.title }}
+
+
+       {% block content %}
+    <i>{{ flatpage.content }}</i>
+     <h3>Дополнительная информация </h3>
+     <hr>
+     <i>email:</i> puzan@mail.ry<br>
+     <i>website:</i> <a href="https://keramos-neva.ru/" target="_blank" rel="noopener">https://keramos-neva.ru/</a> <br>
+     <hr>
+       {% endblock content %}
+
